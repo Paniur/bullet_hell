@@ -71,7 +71,7 @@ class Game:
     def __init__(self):
         pygame.init()
         self.screen = pygame.display.set_mode((WINDOW_WIDTH, WINDOW_HEIGHT))
-        pygame.display.set_caption("ww2 meets anime hell")
+        pygame.display.set_caption("Soldier Hell")
         self.clock = pygame.time.Clock()
         self.running = True
         self.state = GameState.START
